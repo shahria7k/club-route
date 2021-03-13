@@ -69,11 +69,3 @@ const TeamDetail = () => {
 };
 
 export default TeamDetail;
-echo "# club-route" >> README.md
-git init
-git add ./
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/shahria7k/club-route.git
-git push -u origin main
-git status
