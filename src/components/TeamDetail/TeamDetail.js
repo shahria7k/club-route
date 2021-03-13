@@ -37,7 +37,9 @@ const TeamDetail = () => {
 					<div className="row bg-primary  border-5 px-5 py-3 team">
 						<div className="col-7 d-flex flex-column justify-content-center align-items-start px-5">
 							{/* <h3>{team.strTeam}</h3> */}
-							<h1 className="text-white pb-2">Team name: {team.strTeam}</h1>
+							<h1 className="text-white pb-2 mb-4 w-50 border-bottom">
+								{team.strTeam}
+							</h1>
 							<h5 className="text-white pb-3 px-2">
 								Year Founded: {team.intFormedYear}{" "}
 							</h5>
