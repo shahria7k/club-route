@@ -1,0 +1,65 @@
+body {
+	background-color: #0e0a2a;
+}
+.cont {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.badge {
+	width: 200px !important;
+	display: block !important;
+	margin: 0 auto;
+}
+.card {
+	width: 280px;
+}
+.banner {
+	width: 100%;
+	height: 450px;
+	background-image: url("https://www.thesportsdb.com/images/media/team/stadium/w1anwa1588432105.jpg");
+	background-position: 0 -400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(1.5px) brightness(0.75);
+	-webkit-filter: blur(1.5px) brightness(0.75);
+}
+.overlay {
+	position: absolute;
+	margin: auto 50%;
+	width: 100%;
+	color: white;
+	height: 450px;
+	z-index: 1;
+	transform: translateX(-50%);
+	font-size: 56px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: center;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	background: rgba(0, 0, 0, 0.144);
+	display: grid;
+	align-items: center;
+}
+.team {
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	height: 450px;
+}
+.logo {
+	width: auto;
+}
+.photo {
+	width: 350px;
+}
+.description {
+	font-size: 18px;
+	line-height: 1.8;
+	text-align: justify;
+}
